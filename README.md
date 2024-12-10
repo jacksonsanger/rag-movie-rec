@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Movie Recommender ChatBot by Thomas Bahmandeji, Jackson Sanger
 
 ### Project Description
@@ -51,17 +50,3 @@ Cross-referencing our vector database results with our LLM:
 - For each user input, we retrieved the 5 most similar vectors in our database and uploaded these to our LLM to check if the vector db results retrieved are consistent with what the user was querying.
 - To do this, we developed a prompt that instructed the LLM to respond with 'yes' or 'no' indicating if the vector db result is a 'good' answer for what the user wanted.
 - We then only passed on the vector db results that got a 'yes' from the LLM to the main LLM query, where we provided the vector db results as a system role to the chatbot context, and instructed the LLM that these results may be useful, but are not binding.
-
-
-=======
-# Movie Buff ChatBot by Jackson Sanger and Thomas Bahmandeji
-
-### Project Description
-Our project is a Movie Buff chatbot agent. The bot knows everything there is to know about movies, and it is respectful and enthusiastic. The personality of the bot could be described as a "Movie Nerd" or a "Movie Buff". If the user is not asking specific questions (which it will answer unbiasedly), Movie Buff prefers to talk about classics, comedies, thrillers and the evolution of movies over time. 
-
-### Implementation Details
-Prompt injection prevention:
-- We employed the use of delimiters and pre-prompt instruction to ensure that any mal-intented input to the model will be disregarded
-
-We use data on 5,000 movies from Kaggle to build our Vector Database. The input json objects include information like the movie's rating, the 
->>>>>>> 64e17494997bb1795b160a88302d38fc028f04e0
