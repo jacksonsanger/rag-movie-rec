@@ -1,6 +1,3 @@
-'''
-Authors: <Thomas Bahmandeji, Jackson Sanger>
-'''
 from flask import Flask, render_template, request, jsonify, g
 from chat_api import collect_messages, get_client, check_prompt_safe
 from vdb import * 

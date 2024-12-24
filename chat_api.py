@@ -1,7 +1,3 @@
-'''
-Authors: <Thomas Bahmandeji, Jackson Sanger>
-'''
-
 from openai import OpenAI, ChatCompletion
 
 client = OpenAI()

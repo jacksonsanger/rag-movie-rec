@@ -3,11 +3,6 @@ import weaviate.classes as wvc
 import os
 import json
 from openai import OpenAI
-"""
-File: vdb.py
-Author: <Thomas Bahmandeji, Jackson Sanger>
-Date: 06-07-2024
-"""
 from chat_api import get_user_completion
 
 def create_client(weaviate_version="1.24.10") -> weaviate.WeaviateClient:

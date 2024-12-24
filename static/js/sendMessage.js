@@ -1,5 +1,3 @@
-// Thomas Bahmandeji, Jackson Sanger
-
 function sendMessage() {
     const messageInput = document.getElementById('messageInput');
     const message = messageInput.value;
